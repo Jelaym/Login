@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9/10/2017, 05:50:41 PM
+    Author     : OwlVirTech
+*/
+
+html{
+    height: 98%;
+    margin: 0px;
+}
+body{
+    height: 98%;
+    margin: 0px;
+    font-size: 20px;
+}
+.ima{
+    position: absolute;
+    right: 00%;
+    top: 00%;
+    width: 20%;
+    height: 30%;
+}
+
