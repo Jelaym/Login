@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+    @autor OwlVirTech 
 -->
 <html>
     <head>
         <title> OwlVirTech </title>
         <link href="sIndex.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body>
+    <body class="badge-dark">
         <center><h2> Login OwlVirTech (El Formulario del Login) con Logo de la Empresa: </h2><center/>
         <img class="ima" src="Owly.png"/>
         <form method="GET" action='ValidaUsuario'>
@@ -17,11 +16,11 @@ and open the template in the editor.
             <BR>
             <center>
                 Introduzca su nombre y pulse el bot&oacute;n de enviar<BR>
-                <BR><input type=text name=NOMBRE>
-                <BR><input type=text name=PASSWORD>
+                <BR><input class="btn-primary" type=text name=NOMBRE>
+                <BR><input class="btn-primary" type=text name=PASSWORD>
                 <BR>
-                <BR><input type=submit value="Enviar Nombre">
-                <input type=reset value="Borrar">
+                <BR><input class="btn-success" type=submit value="Enviar Nombre">
+                <input class="btn-danger" type=reset value="Borrar">
             </center>
         </form>
     </body>
